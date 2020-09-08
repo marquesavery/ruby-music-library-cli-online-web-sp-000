@@ -19,6 +19,10 @@ class MusicLibraryController
       user_input = gets
       if user_input == "list songs"
         list_songs
+      elsif user_input ==  "list artists"
+          list_artists
+      elsif user_input ==  "list artists"
+        list_genres
       end
     end
   end

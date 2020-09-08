@@ -52,7 +52,7 @@ class MusicLibraryController
   def list_songs_by_artist
     puts "Please enter the name of an artist:"
     user_input = gets
-    sorted = Artist.all.sort { |a, b| a.song <=> b.name }
+    sorted = Song.all.sort { |a, b| a.song <=> b.name }
 
   end
 

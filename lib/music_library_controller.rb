@@ -83,7 +83,5 @@ class MusicLibraryController
     else
       puts "Which song number would you like to play?"
     end
-
-
   end
 end

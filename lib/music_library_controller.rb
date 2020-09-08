@@ -83,7 +83,7 @@ class MusicLibraryController
     sorted = Song.all.sort { |a, b| a.name <=> b.name }
     sorted.each do |a|
       counter += 1
-      # binding.pry
+      binding.pry
       if user_input == counter
         puts "Playing #{a.name} by #{a.artist.name}"
       end

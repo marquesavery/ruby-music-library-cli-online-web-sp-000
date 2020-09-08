@@ -80,6 +80,9 @@ class MusicLibraryController
     user_input = gets
     if user_input == counter
       puts "Playing #{a.name} by #{a.artist.name}"
+    else
+      puts "Which song number would you like to play?"
+      
 
   end
 end

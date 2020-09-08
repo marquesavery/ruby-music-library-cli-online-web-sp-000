@@ -82,6 +82,7 @@ class MusicLibraryController
       puts "Playing #{a.name} by #{a.artist.name}"
     else
       puts "Which song number would you like to play?"
+    end
 
 
   end
